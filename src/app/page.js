@@ -7,7 +7,7 @@ import SectionHeaders from "./components/layout/SectionHeaders";
 export default function Home() {
   return (
     <>
-      <Header/>
+      
       <Hero/>
       <HomeMenu/>
       <section className="text-center my-16">
@@ -15,7 +15,7 @@ export default function Home() {
           subHeader={'Our story'}
           mainHeader={'About us'}
         />
-        <div className="text-gray-500 max-w-md mx-auto mt-4 flex-col gap-4">
+        <div className="text-gray-500 max-w-md mx-auto mt-4 flex flex-col gap-4">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis eveniet, asperiores accusamus in autem expedita odit quam officiis qui doloremque maiores optio facere molestias eius aperiam mollitia tempora dolorem minima.
           </p>
@@ -39,9 +39,6 @@ export default function Home() {
           </a>
         </div>
       </section>
-      <footer className="border-t p-8 text-center text-gray-500 mt-8">
-        &copy; 2024 All rights reserved 
-      </footer>
     </>
   );
 }
